@@ -1,6 +1,6 @@
 # npmtest-node-tvdb
 
-#### basic test coverage for  [node-tvdb (v3.1.1)](https://github.com/edwellbrook/node-tvdb)  [![npm package](https://img.shields.io/npm/v/npmtest-node-tvdb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-tvdb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-tvdb.svg)](https://travis-ci.org/npmtest/node-npmtest-node-tvdb)
+#### basic test coverage for  [node-tvdb (v3.1.2)](https://github.com/edwellbrook/node-tvdb)  [![npm package](https://img.shields.io/npm/v/npmtest-node-tvdb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-tvdb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-tvdb.svg)](https://travis-ci.org/npmtest/node-npmtest-node-tvdb)
 
 #### Node.js library for accessing TheTVDB's API
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-tvdb/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-tvdb/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-tvdb/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-tvdb/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-tvdb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-tvdb/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-tvdb/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-tvdb/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-tvdb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-tvdb/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-tvdb/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-tvdb/build/coverage.html/index.html)
 
@@ -42,26 +42,26 @@
         "url": "https://github.com/edwellbrook/node-tvdb/issues"
     },
     "dependencies": {
-        "lodash": "^4.17.3",
+        "lodash": "^4.17.4",
         "node-fetch": "^1.6.3"
     },
     "description": "Node.js library for accessing TheTVDB's API",
     "devDependencies": {
         "chai": "^3.5.0",
         "chai-as-promised": "^6.0.0",
-        "eslint": "latest",
-        "eslint-plugin-mocha": "^4.8.0",
+        "eslint": "^3.18.0",
+        "eslint-plugin-mocha": "^4.9.0",
         "jsdoc": "^3.4.3",
         "minami": "github:edwellbrook/minami",
         "mocha": "^3.2.0",
-        "nock": "^9.0.9",
-        "sinon": "^1.17.7",
-        "sinon-chai": "^2.8.0"
+        "nock": "^9.0.11",
+        "sinon": "^2.1.0",
+        "sinon-chai": "^2.9.0"
     },
     "directories": {},
     "dist": {
-        "shasum": "3750c1dbcbccd78b55075e575d9b72993734341c",
-        "tarball": "https://registry.npmjs.org/node-tvdb/-/node-tvdb-3.1.1.tgz"
+        "shasum": "0e471e4f1387f71210e7fa05c899554a5efc9efd",
+        "tarball": "https://registry.npmjs.org/node-tvdb/-/node-tvdb-3.1.2.tgz"
     },
     "engines": {
         "node": ">=4.3.2"
@@ -69,7 +69,7 @@
     "files": [
         "index.js"
     ],
-    "gitHead": "149c3e41ad101e7ab39cd02aca017b838bc4587a",
+    "gitHead": "61d7d22859ccd84d50baa3b584bd4b0b69eab529",
     "homepage": "https://github.com/edwellbrook/node-tvdb",
     "keywords": [
         "tv",
@@ -96,7 +96,8 @@
         "generate-docs": "rm -rf ./docs && jsdoc -c .jsdoc.json",
         "test": "mocha test && eslint ."
     },
-    "version": "3.1.1"
+    "version": "3.1.2",
+    "bin": {}
 }
 ```
 
